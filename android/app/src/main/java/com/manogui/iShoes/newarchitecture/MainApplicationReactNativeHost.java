@@ -1,4 +1,4 @@
-package com.anonymous.shoesapp.newarchitecture;
+package com.manogui.iShoes.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -20,9 +20,9 @@ import com.facebook.react.fabric.EmptyReactNativeConfig;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.anonymous.shoesapp.BuildConfig;
-import com.anonymous.shoesapp.newarchitecture.components.MainComponentsRegistry;
-import com.anonymous.shoesapp.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.manogui.iShoes.BuildConfig;
+import com.manogui.iShoes.newarchitecture.components.MainComponentsRegistry;
+import com.manogui.iShoes.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

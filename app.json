@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "shoes-app",
-    "slug": "shoes-app",
+    "name": "iShoes",
+    "slug": "iShoes",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,14 +19,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.manogui.shoes-app"
+      "bundleIdentifier": "com.manogui.iShoes"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.anonymous.shoesapp"
+      "package": "com.manogui.iShoes"
     },
     "web": {
       "favicon": "./assets/favicon.png"

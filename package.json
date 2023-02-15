@@ -1,5 +1,5 @@
 {
-  "name": "shoes-app",
+  "name": "ishoes",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",

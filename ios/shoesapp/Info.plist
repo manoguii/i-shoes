@@ -5,7 +5,7 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>$(DEVELOPMENT_LANGUAGE)</string>
     <key>CFBundleDisplayName</key>
-    <string>shoes-app</string>
+    <string>iShoes</string>
     <key>CFBundleExecutable</key>
     <string>$(EXECUTABLE_NAME)</string>
     <key>CFBundleIdentifier</key>
@@ -25,13 +25,13 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>com.manogui.shoes-app</string>
+          <string>com.manogui.iShoes</string>
         </array>
       </dict>
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>exp+shoes-app</string>
+          <string>exp+ishoes</string>
         </array>
       </dict>
     </array>

@@ -1,4 +1,4 @@
-package com.anonymous.shoesapp.newarchitecture.components;
+package com.manogui.iShoes.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

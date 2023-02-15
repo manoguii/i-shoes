@@ -1,4 +1,4 @@
-package com.anonymous.shoesapp.newarchitecture.modules;
+package com.manogui.iShoes.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

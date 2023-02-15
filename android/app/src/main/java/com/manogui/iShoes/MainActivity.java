@@ -1,4 +1,4 @@
-package com.anonymous.shoesapp;
+package com.manogui.iShoes;
 
 import android.os.Build;
 import android.os.Bundle;
