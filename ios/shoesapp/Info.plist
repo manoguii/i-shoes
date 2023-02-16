@@ -25,6 +25,7 @@
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
+          <string>iShoes</string>
           <string>com.manogui.iShoes</string>
         </array>
       </dict>

@@ -1,4 +1,5 @@
 import { createContext, useState, ReactNode, useEffect } from 'react';
+import { tagCartUpdate } from '../notifications/notificationsTags';
 
 import {
   StorageCartProps,
@@ -25,7 +26,10 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
   async function addProductCart(newProduct: StorageCartProps) {
     try {
       const storageResponse = await storageProductSave(newProduct);
+
       setCart(storageResponse);
+
+      tagCartUpdate(storageResponse.length.toString(), newProduct.name)
     } catch (error) {
       throw error;
     }
@@ -35,6 +39,8 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
     try {
       const response = await storageProductRemove(productId);
       setCart(response);
+      const productRemoved = response.find((product) => product.id === productId);
+      tagCartUpdate(response.length.toString(), productRemoved?.name!)
     } catch (error) {
       throw error;
     }
